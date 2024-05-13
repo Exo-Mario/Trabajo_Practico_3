@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulario de Cliente</title>
+		<link rel="stylesheet" href="../static/css/estilos.css">
+	</head>
+	
+<body>
+	<header>
+		<h1>Registro de Cliente</h1>
+	</header>
+	
+	<form action="#" method="post">
+	
+		<label for="dni">DNI:</label>
+		<input type="number" id="dni" name="dni" required><br>
+		
+		<label for="nombres">Nombres:</label>
+		<input type="text" id="nombres" name="nombres" required><br>
+		
+		<label for="apellidos">Apellidos:</label>
+		<input type="text" id="apellidos" name="apellidos" required><br>
+		
+		<label for="genero">Género:</label>
+		
+		<input type="radio" id="femenino" name="genero" value="femenino">
+		<label for="femenino">Femenino</label>
+		<input type="radio" id="masculino" name="genero" value="masculino">
+		<label for="masculino">Masculino</label>
+		<input type="radio" id="no_binario" name="genero" value="x">
+		<label for="no_binario">X</label><br>
+		
+		<label for="email">Correo electrónico:</label>
+		<input type="email" id="email" name="email" required><br>
+		
+		<label for="domicilio">Domicilio:</label>
+		<input type="text" id="domicilio" name="domicilio" required><br>
+		
+		<label for="fechaNacimiento">Fecha de Nacimiento:</label>
+		<input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
+		
+		<label for="provincia">Provincia:</label>
+		<select id="provincia" name="provincia" required>
+			<option value="" disabled selected>Elegir...</option>
+			<option value="Buenos Aires">Buenos Aires</option>
+ 			<option value="Catamarca">Catamarca</option>
+  			<option value="Chaco">Chaco</option>
+  			<option value="Chubut">Chubut</option>
+		  	<option value="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
+		 	<option value="Córdoba">Córdoba</option>
+		  	<option value="Corrientes">Corrientes</option>
+		  	<option value="Entre Ríos">Entre Ríos</option>
+		  	<option value="Formosa">Formosa</option>
+		  	<option value="Jujuy">Jujuy</option>
+		  	<option value="La Pampa">La Pampa</option>
+		  	<option value="La Rioja">La Rioja</option>
+		  	<option value="Mendoza">Mendoza</option>
+		  	<option value="Misiones">Misiones</option>
+		  	<option value="Neuquén">Neuquén</option>
+		  	<option value="Río Negro">Río Negro</option>
+		  	<option value="Salta">Salta</option>
+		  	<option value="San Juan">San Juan</option>
+		  	<option value="San Luis">San Luis</option>
+		  	<option value="Santa Cruz">Santa Cruz</option>
+		  	<option value="Santa Fe">Santa Fe</option>
+		  	<option value="Santiago del Estero">Santiago del Estero</option>
+		  	<option value="Tierra del Fuego">Tierra del Fuego</option>
+		  	<option value="Tucumán">Tucumán</option>
+		</select><br>
+		
+		<label for="telefono">Teléfono:</label>
+		<input type="number" id="telefono" name="telefono"><br>
+		
+		<label for="interes">Categoría de interés:</label><br>
+		
+		<input type="checkbox" id="programador" name="interes">
+		<label for="programador">Programador</label>
+		<input type="checkbox" id="basedatos" name="interes">
+		<label for="basedatos">Administrador de Base de Datos</label>
+		<input type="checkbox" id="editor" name="interes">
+		<label for="editor">Editor multimedia</label><br>
+		
+		<label for="sugerencia">Sugerencia para la empresa:</label><br>
+		<textarea id="sugerencia" name="sugerencia" rows="4" cols="50">Escribe tus comentarios aquí...</textarea><br>
+		
+		<label for="contraseña">Contraseña:</label>
+		<input type="password" id="contraseña" name="contraseña" required><br>
+		
+		<label for="aceptarCondiciones">Acepto los términos y condiciones</label>
+		<input type="checkbox" id="aceptarCondiciones" name="aceptarCondiciones" required><br>
+		
+		<label for="aceptarInformacion">Acepto recibir información relativa a la empresa</label>
+		<input type="checkbox" id="aceptarInformacion" name="aceptarInformacion"><br>
+		
+		<button type="submit">Enviar</button>
+		
+	</form>
+	
+	<footer>
+			<h3>Contacto</h3>
+			<p>E-mail: consultas@unju.edu.ar<br>
+			Teléfono: (0388) 4244196 / 191 / 107<br>
+			Dirección: Av.Bolivia 1239<br>
+			S.S. de Jujuy - Argentina<br>
+			<a href="https://www.facebook.com/universidadnacionaldejujuy/">Facebook</a><br>
+			<a href="https://twitter.com/prensaunju?lang=es">Twitter</a><br>
+			<a href="http://tv.unju.edu.ar/">Página</a></p>
+		</footer>
+
+</body>
+
+</html>
