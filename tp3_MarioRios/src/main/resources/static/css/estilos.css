@@ -1,1 +1,130 @@
 @charset "UTF-8";
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	background-color: #d1d1e0;
+}
+
+#encabezado{
+	color: #6699ff;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.navegacion{
+	list-style-type: none;
+	display: inline;
+	text-align: center;
+}
+
+nav li {
+    display: inline; /* Ítems del menú en una línea horizontal */ 
+    background-color: #d1d1e0;
+}
+
+.enlaces{
+	word-spacing: 12px;
+	letter-spacing: 5px;
+	padding: 24px;
+	font-weight: bolder;
+}
+
+.principal{
+	padding-left: 5px;
+	line-height: 20px;
+	background-color: #e0e0eb;
+}
+
+.Introduccion{
+	background-color: #c2c2d6;
+	font-weight: bold;
+	font-size: large;
+}
+
+.Contacto{
+	border-width: 1;
+	border-style: solid;
+	border-color: #990000;
+	table-layout: auto;
+	width: 1200px;
+	margin-left: 18%;
+}
+
+.Contacto tr{
+	text-align: center;
+}
+
+.titulos{
+	text-align: center;
+}
+
+section .item{
+	font-style: italic;
+	font-family: cursive;
+}
+
+.Clases{
+	word-spacing: 10px;
+	font-weight: bold;
+}
+
+aside .enlaces-clases a{
+	padding-left: 10%;
+	color: #ff3300;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Esto separará los elementos horizontalmente */
+  align-items: center; /* Esto centrará verticalmente los elementos */
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#footer .footer-links {
+  color: #ffffff;
+  margin-right: 10px; /* Esto agregará un espacio entre los enlaces */
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para etiquetas */
+label {
+  line-height: 40px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+  width: calc(100% - 10px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
