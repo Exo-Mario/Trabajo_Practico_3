@@ -7,21 +7,21 @@
 	</head>
 	
 	<body>
-		<header>
+		<header id="encabezado">
 			<h1>Trabajo Práctico 3 - HTML</h1>
 		</header>
 		
-		<nav>
+		<nav class="navegacion">
 			<ul>
-				<li><a href="#Introduccion">Presentación</a></li>
-				<li><a href="#Contenido">Contenido</a></li>
-				<li><a href="#Contacto">Contacto</a></li>
+				<li><a href="#Introduccion" class="enlaces">Presentación</a></li>
+				<li><a href="#Contenido" class="enlaces">Contenido</a></li>
+				<li><a href="#Contacto" class="enlaces">Contacto</a></li>
 			</ul>
 		</nav>
 		
-		<main>
-			<section id="Introduccion">
-				<h3>Presentación</h3>
+		<main class="principal">
+			<section id="Introduccion" class="Introduccion">
+				<h3 class="titulos">Presentación</h3>
 				<p>Corresponde al 1er cuatrimestre del 2do año de la carrera de Analista Programador Universitario <br><br>
 				Plan de Carrera: 2008 <br>
 				Modalidad: Virtual <br>
@@ -32,23 +32,23 @@
 			</section>
 			
 			<section id="Contenido">
-				<h3>PROGRAMACIÓN VISUAL APU 2008 SAN SALVADOR – AÑO 2024</h3>
+				<h3 class="titulos">PROGRAMACIÓN VISUAL APU 2008 SAN SALVADOR – AÑO 2024</h3>
 				
 				<ul>
-					<li>UNIDAD I: Lenguaje Java</li>
-					<li>UNIDAD II: Introducción a Spring Boot</li>
-					<li>UNIDAD III: Gestión de Dependencias y Versionamiento</li>
-					<li>UNIDAD IV: Spring Boot MVC</li>
-					<li>UNIDAD V: Clases de negocio</li>
-					<li>UNIDAD VI: Persistencia de Objetos</li>
-					<li>UNIDAD VII: Manejo de formularios</li>
+					<li class="item">UNIDAD I: Lenguaje Java</li>
+					<li class="item">UNIDAD II: Introducción a Spring Boot</li>
+					<li class="item">UNIDAD III: Gestión de Dependencias y Versionamiento</li>
+					<li class="item">UNIDAD IV: Spring Boot MVC</li>
+					<li class="item">UNIDAD V: Clases de negocio</li>
+					<li class="item">UNIDAD VI: Persistencia de Objetos</li>
+					<li class="item">UNIDAD VII: Manejo de formularios</li>
 				</ul>
 			</section>
 			
 			<section id="Contacto">
-				<h3>Contacto</h3>
+				<h3 class="titulos">Contacto</h3>
 				
-				<table>
+				<table class="Contacto">
 					<tr>
     					<th>Nombre de la Asignatura</th>
     					<th>Equipo de Catédra</th>
@@ -66,28 +66,28 @@
 				
 			</section>
 			
-			<aside>
+			<aside class="Clases">
 				<h3>Aula Virtual</h3>
-				<a><img src="/images/logopv.jpg" alt="Aula Virtual"></a>
-				<p>Teoría única: Miércoles: 14 a 17 hs - MODALIDAD VIRTUAL - Aula Virtual de la Sala 4 (LUTI) - https://bit.ly/ZOOMFI-14. <br>
-				Comisión 1 Práctica: Lunes: 18 a 21 hs - MODALIDAD VIRTUAL - Aula Virtual del AULA 11 - https://bit.ly/ZOOMFI-14 <br>
-				Comisión 2 Práctica: Jueves 14 a 17 hs - MODALIDAD VIRTUAL - https://bit.ly/ZOOMFI-14 <br>
-				Comisión 3 Práctica: Viernes 18 a 21 hs - MODALIDAD VIRTUAL - https://bit.ly/ZOOMFI-14
+				<a><img src='../static/images/logopv.jpg' alt="Aula Virtual"></a>
+				<p class="enlaces-clases">Teoría única: Miércoles: 14 a 17 hs - MODALIDAD VIRTUAL - Aula Virtual de la Sala 4 (LUTI) - <a href="https://bit.ly/ZOOMFI-14">https://bit.ly/ZOOMFI-14.</a> <br>
+				Comisión 1 Práctica: Lunes: 18 a 21 hs - MODALIDAD VIRTUAL - Aula Virtual del AULA 11 - <a href="https://bit.ly/ZOOMFI-14">https://bit.ly/ZOOMFI-14.</a> <br>
+				Comisión 2 Práctica: Jueves 14 a 17 hs - MODALIDAD VIRTUAL - <a href="https://bit.ly/ZOOMFI-14">https://bit.ly/ZOOMFI-14</a> <br>
+				Comisión 3 Práctica: Viernes 18 a 21 hs - MODALIDAD VIRTUAL - <a href="https://bit.ly/ZOOMFI-14">https://bit.ly/ZOOMFI-14</a>
 				</p>
 			</aside>
 			
 			
 		</main>
 		
-		<footer>
+		<footer id="footer">
 			<h3>Contacto</h3>
 			<p>E-mail: consultas@unju.edu.ar<br>
 			Teléfono: (0388) 4244196 / 191 / 107<br>
 			Dirección: Av.Bolivia 1239<br>
 			S.S. de Jujuy - Argentina<br>
-			<a href="https://www.facebook.com/universidadnacionaldejujuy/">Facebook</a><br>
-			<a href="https://twitter.com/prensaunju?lang=es">Twitter</a><br>
-			<a href="http://tv.unju.edu.ar/">Página</a></p>
+			<p><a class="footer-links" href="https://www.facebook.com/universidadnacionaldejujuy/">Facebook</a><br>
+			<p><a class="footer-links" href="https://twitter.com/prensaunju?lang=es">Twitter</a><br>
+			<p><a class="footer-links" href="http://tv.unju.edu.ar/">Página</a></p>
 		</footer>
 		
 	</body>
